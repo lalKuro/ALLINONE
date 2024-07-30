@@ -8,7 +8,7 @@ module.exports = {
         .setDescription('stelle die Lautstärke des Music Player ein')
         .addIntegerOption(option =>
             option.setName('level')
-                .setDescription('Lautstärke zwischen 1 und 100')
+                .setDescription('lautstärke zwischen 1 und 100')
                 .setRequired(true)),
 
     async execute(interaction) {
