@@ -8,7 +8,7 @@ module.exports = {
         .setName('loop')
         .setDescription('Looping für den aktuellen song in der Warteschlange aktiviert')
         .addStringOption(option =>
-            option.setName('mode')
+            option.setName('modus')
                 .setDescription('Loop Modus: "Warteschlange" or "Lied"')
                 .setRequired(false)),
 
