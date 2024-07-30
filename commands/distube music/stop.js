@@ -5,7 +5,7 @@ const musicIcons = require('../../UI/icons/musicicons');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('stop')
-        .setDescription('Stopt den aktuellen Song und leavt den Voice Channel'),
+        .setDescription('stopt den aktuellen Song und leavt den Voice Channel'),
 
     async execute(interaction) {
         const voiceChannel = interaction.member.voice.channel;
