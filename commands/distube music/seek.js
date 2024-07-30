@@ -9,7 +9,7 @@ module.exports = {
         .setDescription('seek den aktuellen song zu einer Zeit')
         .addStringOption(option =>
             option.setName('timestamp')
-                .setDescription('Zeit zum seek in (in sekunden oder in mm:ss format)')
+                .setDescription('zeit zum seek in (in sekunden oder in mm:ss format)')
                 .setRequired(true)),
 
     async execute(interaction) {
