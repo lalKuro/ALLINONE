@@ -5,7 +5,7 @@ const musicIcons = require('../../UI/icons/musicicons');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('skip')
-        .setDescription('Überspringe den aktuellen song in der Warteschlange'),
+        .setDescription('überspringe den aktuellen song in der Warteschlange'),
 
     async execute(interaction) {
         const voiceChannel = interaction.member.voice.channel;
