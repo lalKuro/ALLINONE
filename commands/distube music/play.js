@@ -4,10 +4,10 @@ const config = require('./../../config.json');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('play')
-        .setDescription('Spiele ein Lied oder eine Playlist in deinem Voice Channel')
+        .setDescription('spiele ein Lied oder eine Playlist in deinem Voice Channel')
         .addStringOption(option =>
-            option.setName('Song')
-                .setDescription('Der Link oder name von deinem Song oder die Playlist')
+            option.setName('song')
+                .setDescription('der Link oder name von deinem Song oder die Playlist')
                 .setRequired(true)),
     async execute(interaction) {
         let input;
