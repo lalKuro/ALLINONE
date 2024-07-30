@@ -6,7 +6,7 @@ module.exports = {
         .setName('play')
         .setDescription('Spiele ein Lied oder eine Playlist in deinem Voice Channel')
         .addStringOption(option =>
-            option.setName('Song?')
+            option.setName('Song')
                 .setDescription('Der Link oder name von deinem Song oder die Playlist')
                 .setRequired(true)),
     async execute(interaction) {
