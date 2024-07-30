@@ -5,7 +5,7 @@ const cmdIcons = require('../../UI/icons/commandicons');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('volume')
-        .setDescription('Stelle die Lautstärke des Music Player ein')
+        .setDescription('stelle die Lautstärke des Music Player ein')
         .addIntegerOption(option =>
             option.setName('level')
                 .setDescription('Lautstärke zwischen 1 und 100')
