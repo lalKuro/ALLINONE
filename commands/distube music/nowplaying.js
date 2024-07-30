@@ -5,7 +5,7 @@ const musicIcons = require('../../UI/icons/musicicons');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('nowplaying')
-        .setDescription('Zeige den aktuellen song'),
+        .setDescription('zeige den aktuellen song'),
 
     async execute(interaction) {
         if (interaction.isCommand && interaction.isCommand()) {
