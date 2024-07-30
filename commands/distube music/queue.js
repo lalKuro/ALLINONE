@@ -6,8 +6,8 @@ const { EmbedBuilder } = require('discord.js');
 const musicIcons = require('../../UI/icons/musicicons');
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('Warteschlange')
-        .setDescription('Siehe die altuelle Warteschlange'),
+        .setName('warteschlange')
+        .setDescription('siehe die altuelle Warteschlange'),
 
     async execute(interaction) {
         const voiceChannel = interaction.member.voice.channel;
